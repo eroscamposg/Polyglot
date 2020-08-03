@@ -13,7 +13,6 @@
 		00238AB624D481E500FDFCF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00238AB424D481E500FDFCF2 /* Main.storyboard */; };
 		00238AB824D481EB00FDFCF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00238AB724D481EB00FDFCF2 /* Assets.xcassets */; };
 		00238ABB24D481EB00FDFCF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00238AB924D481EB00FDFCF2 /* LaunchScreen.storyboard */; };
-		0027381324D48C0E00EDF38E /* WordsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0027381224D48C0E00EDF38E /* WordsDataSource.swift */; };
 		0027381624D4954B00EDF38E /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0027381524D4954B00EDF38E /* WordCell.swift */; };
 		008ADD9024D5E48000576A9A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008ADD8F24D5E48000576A9A /* Constants.swift */; };
 		008ADD9124D5E58400576A9A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008ADD8F24D5E48000576A9A /* Constants.swift */; };
@@ -57,7 +56,6 @@
 		00238AB724D481EB00FDFCF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00238ABA24D481EB00FDFCF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00238ABC24D481EB00FDFCF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0027381224D48C0E00EDF38E /* WordsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsDataSource.swift; sourceTree = "<group>"; };
 		0027381524D4954B00EDF38E /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
 		008ADD8D24D5D13400576A9A /* Polyglot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Polyglot.entitlements; sourceTree = "<group>"; };
 		008ADD8F24D5E48000576A9A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 			children = (
 				008ADD8D24D5D13400576A9A /* Polyglot.entitlements */,
 				0027381424D4951A00EDF38E /* Views */,
-				0027381124D48BBC00EDF38E /* DataSource */,
 				00238AAE24D481E500FDFCF2 /* AppDelegate.swift */,
 				00238AB024D481E500FDFCF2 /* SceneDelegate.swift */,
 				00238AB224D481E500FDFCF2 /* ViewController.swift */,
@@ -125,14 +122,6 @@
 				008ADD9324D5F57400576A9A /* TestViewController.swift */,
 			);
 			path = Polyglot;
-			sourceTree = "<group>";
-		};
-		0027381124D48BBC00EDF38E /* DataSource */ = {
-			isa = PBXGroup;
-			children = (
-				0027381224D48C0E00EDF38E /* WordsDataSource.swift */,
-			);
-			path = DataSource;
 			sourceTree = "<group>";
 		};
 		0027381424D4951A00EDF38E /* Views */ = {
@@ -268,7 +257,6 @@
 				00238AB324D481E500FDFCF2 /* ViewController.swift in Sources */,
 				00238AAF24D481E500FDFCF2 /* AppDelegate.swift in Sources */,
 				0027381624D4954B00EDF38E /* WordCell.swift in Sources */,
-				0027381324D48C0E00EDF38E /* WordsDataSource.swift in Sources */,
 				00238AB124D481E500FDFCF2 /* SceneDelegate.swift in Sources */,
 				008ADD9024D5E48000576A9A /* Constants.swift in Sources */,
 			);
