@@ -32,9 +32,12 @@ class TodayViewController: UIViewController, NCWidgetProviding, UITableViewDataS
           self.preferredContentSize = maxSize;
         }
         else {
-          self.preferredContentSize = CGSize(width: 0, height: 440);
+            if words.count < 8 {
+                self.preferredContentSize = CGSize(width: 0, height: words.count * 55);
+            } else {
+                self.preferredContentSize = CGSize(width: 0, height: 440);
+            }
         }
-
     }
     
     //MARK: - Table View Delegates

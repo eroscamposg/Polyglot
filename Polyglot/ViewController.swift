@@ -219,6 +219,5 @@ class ViewController: UITableViewController {
         self.saveWords()
         tableView.reloadData()
     }
-    
 }
 
